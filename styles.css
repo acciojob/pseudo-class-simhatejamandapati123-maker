@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #container {
     margin: 20px;
-    /* This is important for the pseudo-elements */
+    position: relative;/* This is important for the pseudo-elements */
 }
 
 #container::before {
