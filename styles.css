@@ -1,22 +1,19 @@
 /*  your css code here. If applicable */
 #container {
     margin: 20px;
-    position: relative; /* This is important for the pseudo-elements */
+    /* This is important for the pseudo-elements */
 }
 
 #container::before {
     content: "Before Content"; /* Change this to whatever you want to display */
     color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-    display: block; /* Makes it a block element */
-    margin-bottom: 10px; /* Space between before content and container */
+    font-size: 20px; /* Font size *//* Makes it a block element */
+    /* Space between before content and container */
 }
 
 #container::after {
     content: "After Content"; /* Change this to whatever you want to display */
     color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-    display: block; /* Makes it a block element */
-    margin-top: 10px; /* Space between container and after content */
+    font-size: 20px; /* Font size *//* Makes it a block element */ /* Space between container and after content */
 }
 
