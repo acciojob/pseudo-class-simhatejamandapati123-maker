@@ -5,14 +5,14 @@
 }
 
 #container::before {
-    content: "Before Content"; /* Change this to whatever you want to display */
+    content: "Before Element"; /* Change this to whatever you want to display */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size *//* Makes it a block element */
     /* Space between before content and container */
 }
 
 #container::after {
-    content: "After Content"; /* Change this to whatever you want to display */
+    content: "After Element"; /* Change this to whatever you want to display */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size *//* Makes it a block element */ /* Space between container and after content */
 }
