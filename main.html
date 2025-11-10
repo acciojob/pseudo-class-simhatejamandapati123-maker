@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <title> Class Selecter </title>
+        <style>
+            #container{
+                margin: 20px;
+                position: relative;
+            }
+            #container::before{
+                content: "Before Element";
+                color: #f00;
+                font-size: 20px;
+            }
+            #container::after{
+                content: "After Element";
+                color: #f00;
+                font-size: 20px;
+            }
+        </style>
+    </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <body>
+        <div id="container">
+            This is the main element You'll work with 
+        </div>
 
-<body>
-	<div id="container">
-    This is the main container element 
-</div>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+        <script>
 
-</body>
-
+        </script>
+    </body>
 </html>
